@@ -1,0 +1,30 @@
+# Variables de entorno con credenciales - NUNCA SUBIR
+.env
+.env.local
+.env.*.local
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Logs
+*.log
+monitor.log
+
+# Archivos temporales
+/tmp/
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
